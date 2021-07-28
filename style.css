@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
 :root {
 
     --ff-title: 'Bebas Neue', cursive;
-    --ff-para: 'Montserrat', sans-serif; ;
+    --ff-para: 'Poppins', sans-serif; ;
     --bg-header: #264653;
     --bg-main: ;
     --bg-footer: #0B0D17;
@@ -10,6 +10,7 @@
     --clr: #fff;
     --clr-head: #0A0826;
     --clr-title: #18191F;
+    --clr-header--para: #e0e0e0;
     --clr-para: #6C6C6C;
     --clr-user: #23A6F0;
     --clr-app: #D9DBE1;
@@ -31,4 +32,29 @@ header .navbar ul.dropdown-menu,
 header .navbar a.dropdown-item{
     background: var(--bg-header);
     color: var(--clr);
+}
+button.btn{
+    background: var(--bg-btn);
+    color: var(--clr);
+    font-family: var(--ff-para);
+    padding: 0.5rem 1.5rem;
+}
+button.btn:hover{
+    color: var(--bg-btn);
+    background: var(--clr);
+    border: 2px solid var(--bg-btn);
+    font-family: var(--ff-para);
+}
+section.banner h2{
+    font-size: calc(25px + 2vw);
+    color: var(--clr);
+}
+section.banner p{
+    color: var(--clr-header--para);
+    font-size: 1rem;
+}
+p{
+    font-family: var(--ff-para);
+    color: var(--clr-para);
+    letter-spacing: 1px;
 }
