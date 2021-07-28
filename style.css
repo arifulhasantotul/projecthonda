@@ -84,12 +84,28 @@ section.feature img {
 /* feature end  */
 
 /* client start  */
-section.client h1 span{
+section.client h1 span,
+section.faq h1 span{
     color: var(--bg-btn);
 }
 section.client .card .star {
     color: var(--clr-star);
 }
 /* client end  */
+
+/* faq start  */
+section.faq .accordion-button {
+    box-shadow: none;
+    background: transparent;
+    color: #000;
+    letter-spacing: 2px;
+}
+section.faq .accordion-body {
+    text-align: left;
+    color: var(--clr-para);
+    font-family: var(--ff-para);
+    letter-spacing: 1px;
+}
+/* faq end  */
 
 /* main end  */
