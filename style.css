@@ -58,3 +58,25 @@ p{
     color: var(--clr-para);
     letter-spacing: 1px;
 }
+
+/* header done  */
+
+/* main start  */
+
+/* feature start  */
+section .heading{
+    margin: calc( 50px + 2vw ) 0;
+}
+section.feature p, u{
+    font-family: var(--ff-para);
+    color: var(--bg-btn);
+    font-weight: bold;
+}
+section.feature img {
+    width: calc(260px + 4vw);
+    padding: 10px 0px 20px 0px;
+}
+
+/* feature end  */
+
+/* main end  */
