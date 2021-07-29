@@ -69,7 +69,7 @@ footer{
 }
 /* feature start  */
 section .heading{
-    margin: calc( 50px + 2vw ) 0;
+    margin: calc( 50px + 2vw ) 0px;
 }
 section.feature p, u{
     font-family: var(--ff-para);
@@ -109,3 +109,24 @@ section.faq .accordion-body {
 /* faq end  */
 
 /* main end  */
+
+/* footer start  */
+footer{
+    margin-top: calc( 50px + 2vw );
+    padding: calc( 50px + 2vw ) 0px;
+    background: var(--bg-footer);
+}
+
+footer .social .fab{
+    /* color: var(--clr); */
+    border: 1px solid var(--clr-para);
+    padding: 13px 13px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+footer .copy {
+    text-align: center;
+    font-size: 10px;
+}
+/* footer end  */
