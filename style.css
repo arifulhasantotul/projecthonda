@@ -85,7 +85,8 @@ section.feature img {
 
 /* client start  */
 section.client h1 span,
-section.faq h1 span{
+section.faq h1 span,
+section.newsletter h1 span{
     color: var(--bg-btn);
 }
 section.client .card .star {
